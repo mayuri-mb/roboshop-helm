@@ -1,5 +1,5 @@
 deployment:
   replicas: "1"
   imageName: "mayurim334/mongodb"
-  ImageVersion: "1.5.0"
+  imageVersion: "1.5.0"
 
