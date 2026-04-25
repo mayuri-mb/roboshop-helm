@@ -1,6 +1,5 @@
 configMap:
-  MONGO_URL: "mongodb://mongodb:27017/catalogue"
-  
+  MONGO_URL: "mongodb://mongodb:27017/catalogue"  
 deployment:
   replicas: "1"
   imageName: "mayurim334/catalogue"
