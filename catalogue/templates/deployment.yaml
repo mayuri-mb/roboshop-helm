@@ -47,7 +47,7 @@ spec:
               path: /health
               port: 8080
             failureThreshold: 5
-            periodSeconds: 10  
+            periodSeconds: 20  
           envFrom:
           - configMapRef:
               name: catalogue             
